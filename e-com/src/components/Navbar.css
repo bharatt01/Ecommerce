@@ -1,0 +1,78 @@
+body{
+    font-family:sans-serif;
+  }
+  .navbar1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 10px 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .navbar1{
+    background-color: white;
+  height: 90px;
+  }
+  #hy{
+    float: left;
+    margin-left: 70px;
+    /* margin-right: 190px; */
+    float: left;
+    margin-top: 35px;
+  }
+  .gm{
+    height: 40px;
+    width: 370px;
+    border: 2px;
+    border-radius: 25px ;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 20px;
+    float: left;
+    margin-top: 20px;
+    background-color:  #f0f0f0;
+  }
+  #shp{background-color:white;
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+  #shp1{
+    height: 35px;
+    width: 35px;
+    margin-top: -5px;
+    margin-left: -10px;
+  }
+  /* h1{
+    margin-left: 70px;
+    margin-top: 90px;
+    color: aqua;
+  } */
+  .Shop{
+    display: inline-block;
+}
+.Shop a{
+  margin-left:5px;
+    display: block;
+    text-decoration: none;
+}
+.Shop .dropdown {
+    height: 200px;
+    width: 90px;
+background-color: beige;
+    margin-left: -10px;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+ transition: 1.5s;
+}
+.Shop:hover .dropdown {
+    display: block;
+}
+.Shop .dropdown a:hover {
+  background-color: gray;
+  border-radius: 10px;
+  
+}
